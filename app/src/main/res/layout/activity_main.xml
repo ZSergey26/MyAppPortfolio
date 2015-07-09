@@ -27,7 +27,9 @@
             android:layout_weight="1"
             android:layout_marginTop="5dp"
             android:background="#F08C35"
-            android:layout_marginBottom="5dp" />
+            android:layout_marginBottom="5dp"
+            android:onClick="spotifyStreamerLaunch"
+            />
 
         <Button
             android:layout_width="210dp"
@@ -38,7 +40,9 @@
             android:layout_weight="1"
             android:layout_marginTop="5dp"
             android:background="#F08C35"
-            android:layout_marginBottom="5dp" />
+            android:layout_marginBottom="5dp"
+            android:onClick="scoresAppLaunch"
+            />
 
         <Button
             android:layout_width="210dp"
@@ -49,7 +53,9 @@
             android:layout_weight="1"
             android:background="#F08C35"
             android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp" />
+            android:layout_marginBottom="5dp"
+            android:onClick="libraryAppLaunch"
+            />
 
         <Button
             android:layout_width="210dp"
@@ -60,7 +66,9 @@
             android:layout_weight="1"
             android:background="#F08C35"
             android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp" />
+            android:layout_marginBottom="5dp"
+            android:onClick="buildItBiggerLaunch"
+            />
 
         <Button
             android:layout_width="210dp"
@@ -71,7 +79,9 @@
             android:layout_weight="1"
             android:background="#F08C35"
             android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp" />
+            android:layout_marginBottom="5dp"
+            android:onClick="xyzReaderLaunch"
+            />
 
         <Button
             android:layout_width="210dp"
@@ -82,6 +92,8 @@
             android:layout_weight="1"
             android:background="#ffff4e34"
             android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp" />
+            android:layout_marginBottom="5dp"
+            android:onClick="capstoneLaunch"
+            />
     </LinearLayout>
 </RelativeLayout>
