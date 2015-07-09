@@ -1,11 +1,6 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
 
     <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -41,7 +36,7 @@
             android:layout_marginTop="@dimen/button_margin"
             android:background="#F08C35"
             android:layout_marginBottom="@dimen/button_margin"
-            android:onClick="scoresAppLaunch"
+            android:onClick="onButtonClickListener"
             />
 
         <Button
@@ -54,7 +49,7 @@
             android:background="#F08C35"
             android:layout_marginTop="@dimen/button_margin"
             android:layout_marginBottom="@dimen/button_margin"
-            android:onClick="libraryAppLaunch"
+            android:onClick="onButtonClickListener"
             />
 
         <Button
@@ -67,7 +62,7 @@
             android:background="#F08C35"
             android:layout_marginTop="@dimen/button_margin"
             android:layout_marginBottom="@dimen/button_margin"
-            android:onClick="buildItBiggerLaunch"
+            android:onClick="onButtonClickListener"
             />
 
         <Button
@@ -80,7 +75,7 @@
             android:background="#F08C35"
             android:layout_marginTop="@dimen/button_margin"
             android:layout_marginBottom="@dimen/button_margin"
-            android:onClick="xyzReaderLaunch"
+            android:onClick="onButtonClickListener"
             />
 
         <Button
@@ -93,7 +88,6 @@
             android:background="#ffff4e34"
             android:layout_marginTop="@dimen/button_margin"
             android:layout_marginBottom="@dimen/button_margin"
-            android:onClick="capstoneLaunch"
+            android:onClick="onButtonClickListener"
             />
     </LinearLayout>
-</RelativeLayout>
