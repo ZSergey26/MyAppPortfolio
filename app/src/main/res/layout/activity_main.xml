@@ -19,80 +19,80 @@
             android:layout_gravity="center_horizontal" />
 
         <Button
-            android:layout_width="210dp"
+            android:layout_width="@dimen/button_width"
             android:layout_height="wrap_content"
             android:text="@string/spotify_streamer"
             android:id="@+id/spotifyStreamerButton"
             android:layout_gravity="center_horizontal"
             android:layout_weight="1"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="@dimen/button_margin"
             android:background="#F08C35"
-            android:layout_marginBottom="5dp"
+            android:layout_marginBottom="@dimen/button_margin"
             android:onClick="spotifyStreamerLaunch"
             />
 
         <Button
-            android:layout_width="210dp"
+            android:layout_width="@dimen/button_width"
             android:layout_height="wrap_content"
             android:text="@string/scores_app"
             android:id="@+id/scoresAppButton"
             android:layout_gravity="center_horizontal"
             android:layout_weight="1"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="@dimen/button_margin"
             android:background="#F08C35"
-            android:layout_marginBottom="5dp"
+            android:layout_marginBottom="@dimen/button_margin"
             android:onClick="scoresAppLaunch"
             />
 
         <Button
-            android:layout_width="210dp"
+            android:layout_width="@dimen/button_width"
             android:layout_height="wrap_content"
             android:text="@string/library_app"
             android:id="@+id/libraryAppButton"
             android:layout_gravity="center_horizontal"
             android:layout_weight="1"
             android:background="#F08C35"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"
+            android:layout_marginTop="@dimen/button_margin"
+            android:layout_marginBottom="@dimen/button_margin"
             android:onClick="libraryAppLaunch"
             />
 
         <Button
-            android:layout_width="210dp"
+            android:layout_width="@dimen/button_width"
             android:layout_height="wrap_content"
             android:text="@string/build_it_bigger"
             android:id="@+id/buildItBiggerButton"
             android:layout_gravity="center_horizontal"
             android:layout_weight="1"
             android:background="#F08C35"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"
+            android:layout_marginTop="@dimen/button_margin"
+            android:layout_marginBottom="@dimen/button_margin"
             android:onClick="buildItBiggerLaunch"
             />
 
         <Button
-            android:layout_width="210dp"
+            android:layout_width="@dimen/button_width"
             android:layout_height="wrap_content"
             android:text="@string/xyz_reader"
             android:id="@+id/xyzReaderButton"
             android:layout_gravity="center_horizontal"
             android:layout_weight="1"
             android:background="#F08C35"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"
+            android:layout_marginTop="@dimen/button_margin"
+            android:layout_marginBottom="@dimen/button_margin"
             android:onClick="xyzReaderLaunch"
             />
 
         <Button
-            android:layout_width="210dp"
+            android:layout_width="@dimen/button_width"
             android:layout_height="wrap_content"
             android:text="@string/capstone"
             android:id="@+id/capstoneButton"
             android:layout_gravity="center_horizontal"
             android:layout_weight="1"
             android:background="#ffff4e34"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"
+            android:layout_marginTop="@dimen/button_margin"
+            android:layout_marginBottom="@dimen/button_margin"
             android:onClick="capstoneLaunch"
             />
     </LinearLayout>
